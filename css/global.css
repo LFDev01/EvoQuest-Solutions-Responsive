@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
 
-
 * {
    padding: 0px;
    margin: 0px;
+   user-select: none;
 }
 
 html {
    scroll-behavior: smooth;
+   overflow-y: hidden;
 }
 
 ul {
