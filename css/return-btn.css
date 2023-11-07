@@ -2,19 +2,20 @@
    display: none;
    top: 5px;
    position: sticky;
-   z-index: 2;
    margin: 0px 20px;
-   margin-top: 100px;
-   /* background-color: red; */
-   /* padding: 5px; */
-   border-radius: 100%;
+   margin-top: 500px;
 }
 
 .return-top-btn a {
-   width: 64px;
-   height: 64px;
+   background-color: #1B1B1B;
+   padding: 5px;  
+   width: 32px;
+   height: 32px;
    background-image: url("../img/arrow-up.svg");
    display: inline-block;
+   background-repeat: no-repeat;
+   background-position: center;
+   border-radius: 100%;
 }
 
 @media screen and (max-width: 800px) {
