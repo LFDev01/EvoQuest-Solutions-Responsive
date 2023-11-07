@@ -1,0 +1,28 @@
+.return-top-btn {
+   display: none;
+   top: 5px;
+   position: sticky;
+   z-index: 2;
+   margin: 0px 20px;
+   margin-top: 100px;
+   /* background-color: red; */
+   /* padding: 5px; */
+   border-radius: 100%;
+}
+
+.return-top-btn a {
+   width: 64px;
+   height: 64px;
+   background-image: url("../img/arrow-up.svg");
+   display: inline-block;
+}
+
+@media screen and (max-width: 800px) {
+   html {
+      overflow-y: hidden;
+   }
+
+   .return-top-btn {
+      display: inline-block;
+   }
+}
