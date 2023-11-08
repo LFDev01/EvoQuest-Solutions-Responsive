@@ -3,6 +3,7 @@
    top: 5px;
    position: sticky;
    margin: 20px;
+   z-index: 1;
 }
 
 .return-top-btn a {
