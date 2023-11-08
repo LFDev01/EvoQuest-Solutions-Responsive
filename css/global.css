@@ -22,11 +22,6 @@ html {
    scroll-behavior: smooth;
 }
 
-body {
-   display: grid;
-   gap: 300px;
-}
-
 img {
    max-width: 100%;
    display: block;

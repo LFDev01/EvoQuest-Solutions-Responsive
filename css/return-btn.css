@@ -25,9 +25,9 @@
 }
 
 @media screen and (max-width: 800px) {
-   html {
+   /* html {
       overflow-y: hidden;
-   }
+   } */
 
    .return-top-btn {
       display: inline-block;
