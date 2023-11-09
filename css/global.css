@@ -35,6 +35,11 @@ a {
    text-decoration: none;
 }
 
+.about,
+.products {
+   margin-bottom: 200px;
+}
+
 @media screen and (min-width: 801px) {
    html {
       scroll-padding-top: 100px;

@@ -2,7 +2,6 @@
    font-family: 'Poppins', sans-serif;
    display: grid;
    grid-template-columns: 1fr 1fr;
-   margin-bottom: 200px;
 }
 
 .about img {
