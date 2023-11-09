@@ -65,11 +65,15 @@
 
    .about-info {
       gap: 20px;
-      place-content: start;
+      align-content: start;
+   }
+
+   .about-info p {
+      font-size: 0.9rem;
    }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 460px) {
    .about-info h1 {
       font-size: 1.5rem;
    }

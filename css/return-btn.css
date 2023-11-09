@@ -3,7 +3,7 @@
    top: 10px;
    position: sticky;
    margin: 20px;
-   z-index: 1;
+   z-index: 2;
 }
 
 .return-top-btn a {
@@ -24,6 +24,13 @@
    background-image: url("../img/arrow-up-2.svg");
 }
 
+
+@media screen and (min-width: 801px) {
+   html {
+      scroll-padding-top: 100px;
+   }
+}
+
 @media screen and (max-width: 800px) {
    html {
       overflow-y: hidden;
@@ -31,5 +38,12 @@
 
    .return-top-btn {
       display: inline-block;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   .return-top-btn a {
+      width: 16px;
+      height: 16px;
    }
 }
