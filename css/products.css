@@ -15,7 +15,6 @@
    padding: 30px;
    text-align: center;
    background: linear-gradient(180deg, rgba(249, 249, 249, 0.98) 0%, #EDEDED 100%);
-   border-radius: 0px 0px 10px 10px;
 }
 
 .product-name-mobile {
@@ -28,7 +27,6 @@
 }
 
 .product-image-container img {
-   border-radius: 10px 10px 0px 0px;
    width: 100%;
    height: 100%;
    object-fit: cover;
@@ -37,7 +35,6 @@
 .product-description {
    display: flex;
    flex-wrap: wrap;
-   border-radius: 10px 10px 0px 0px;
    position: absolute;
    width: 100%;
    height: 100%;
@@ -89,12 +86,10 @@
 
    .product-name-mobile {
       display: block;
-      border-radius: 0px;
       position: relative;
       top: 50px;
       padding: 25px;
       z-index: 1;
-      border-radius: 10px 10px 0px 0px;
    }
 
    .product-image-container {
@@ -109,7 +104,6 @@
       box-shadow: inset 0px 0px 50px 5px rgba(0, 0, 0, 0.4);
       height: 150px;
       margin: auto;
-      border-radius: 0px;
    }
 
    .product-description p {
@@ -119,14 +113,9 @@
    ::-webkit-scrollbar {
       height: 10px;
    }
-
-   ::-webkit-scrollbar-thumb,
-   ::-webkit-scrollbar-track {
-      border-radius: 0px 0px 10px 10px;
-   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
 
    .products {
       width: 300px;
