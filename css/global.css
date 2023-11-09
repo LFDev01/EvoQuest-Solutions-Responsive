@@ -18,9 +18,9 @@
    user-select: none;
 }
 
-html {
+/* html {
    scroll-behavior: smooth;
-}
+} */
 
 img {
    max-width: 100%;

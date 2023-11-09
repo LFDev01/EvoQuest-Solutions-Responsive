@@ -24,7 +24,6 @@
    background-image: url("../img/arrow-up-2.svg");
 }
 
-
 @media screen and (min-width: 801px) {
    html {
       scroll-padding-top: 100px;
