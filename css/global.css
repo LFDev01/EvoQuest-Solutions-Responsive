@@ -12,6 +12,12 @@
    background-color: #58FFF5;
 }
 
+html {
+   overflow-y: scroll;
+   scrollbar-color: #58FFF5 #1b1b1b;
+   scrollbar-width: 5px;
+}
+
 * {
    padding: 0px;
    margin: 0px;

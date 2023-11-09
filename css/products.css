@@ -114,10 +114,6 @@
    ::-webkit-scrollbar {
       height: 5px;
    }
-
-   ::-webkit-scrollbar-thumb {
-      color: #F7F7F7;
-   }
 }
 
 @media screen and (max-width: 380px) {
