@@ -1,5 +1,4 @@
 .about {
-   font-family: 'Poppins', sans-serif;
    display: grid;
    grid-template-columns: 1fr 1fr;
    margin-top: 200px;
@@ -8,6 +7,7 @@
 .about img {
    object-fit: cover;
    height: 100%;
+   width: 100%;
 }
 
 .about-info {
@@ -20,7 +20,7 @@
 }
 
 .about-info h1 {
-   font-size: 3em;
+   font-size: 3rem;
    font-weight: 600;
    color: #242833;
    line-height: 1.1;
@@ -55,6 +55,7 @@
 @media screen and (max-width: 800px) {
    .about {
       grid-template-columns: 1fr;
+      grid-template-rows: 400px 1fr;
       box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
       height: 100vh;
       margin-top: inherit;
@@ -72,6 +73,10 @@
 
    .about-info p {
       font-size: 0.9rem;
+   }
+
+   .about-info::before {
+      content: none;
    }
 }
 

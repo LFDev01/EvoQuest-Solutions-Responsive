@@ -1,0 +1,117 @@
+.contact {
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   padding: 0px 100px;
+   margin: 0 auto;
+}
+
+.contact img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+
+.contact>div {
+   background-color: #EDEDED;
+   padding: 100px;
+}
+
+.contact-form-title {
+   font-size: 3rem;
+   color: #242833;
+}
+
+.contact-form {
+   margin-top: 40px;
+}
+
+.input-container {
+   max-width: 700px;
+}
+
+.input-container+.input-container {
+   margin-top: 40px;
+}
+
+.contact-form-label {
+   display: block;
+   margin-bottom: 10px;
+   font-size: 1rem;
+   font-weight: 500;
+}
+
+.contact-form-input {
+   display: block;
+   width: 100%;
+   height: 40px;
+   background-color: #DEDEDE;
+   outline: none;
+   border: none;
+   padding: 0rem 1rem;
+   box-sizing: border-box;
+   font-size: 0.9rem;
+}
+
+.contact-form-submit {
+   margin-top: 40px;
+   padding: 1rem 1.5rem;
+   font-size: 1.25rem;
+   background: linear-gradient(180deg, #58FFF5 0%, #22D8CD 100%);
+   outline: none;
+   border: none;
+   cursor: pointer;
+   text-transform: uppercase;
+   transition: .2s;
+}
+
+.contact-form-submit:hover {
+   transform: scale(1.1);
+}
+
+@media screen and (max-width: 1400px) {
+   .contact {
+      padding: 50px;
+   }
+
+   .contact>div {
+      padding: 50px;
+   }
+
+   .contact-form-title {
+      font-size: 2rem;
+   }
+}
+
+@media screen and (max-width: 1060px) {
+
+   .contact {
+      grid-template-columns: 1fr 1fr;
+   }
+
+   .contact>div {
+      padding: 25px;
+   }
+}
+
+@media screen and (max-width: 800px) {
+   .contact {
+      grid-template-columns: 1fr;
+      grid-template-rows: 400px 1fr;
+      padding: 0px;
+      height: 100vh;
+   }
+
+   .contact-form-title {
+      font-size: 1.5rem;
+   }
+
+   .input-container+.input-container {
+      margin-top: 20px;
+   }
+
+   .contact-form-submit {
+      margin-top: 30px;
+   }
+
+}

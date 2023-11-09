@@ -1,27 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
 
-html::-webkit-scrollbar {
+/* scrollbar for chrome */
+
+::-webkit-scrollbar {
    width: 5px;
 }
 
-html::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
    background-color: #58FFF5;
 }
 
-html::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
    background-color: #1b1b1b;
 }
+
+/* ----------------- */
+
+/* scrollbar for firefox */
 
 html {
    scrollbar-color: #58FFF5 #1b1b1b;
    scrollbar-width: 5px;
-   transition: .2s;
 }
+
+/* ----------------- */
 
 * {
    padding: 0px;
    margin: 0px;
    user-select: none;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
 }
 
 img {
@@ -38,14 +49,7 @@ a {
 }
 
 .about,
-.products {
-   margin-bottom: 300px;
-}
-
-@media screen and (max-width: 800px) {
-
-   .about,
-   .products {
-      margin-bottom: 200px;
-   }
+.products,
+.contact {
+   margin-bottom: 350px;
 }
