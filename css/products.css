@@ -65,7 +65,7 @@
 
    .product-list {
       flex-wrap: nowrap;
-      overflow-x: auto;
+      overflow-x: scroll;
       scroll-snap-type: x mandatory;
       scroll-behavior: smooth;
       gap: 40px;
