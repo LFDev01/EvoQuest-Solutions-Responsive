@@ -47,6 +47,7 @@
    color: #F7F7F7;
    font-weight: 500;
    padding: 20px;
+   text-align: center;
 }
 
 .product-description:hover {
@@ -111,7 +112,11 @@
    }
 
    ::-webkit-scrollbar {
-      height: 10px;
+      height: 5px;
+   }
+
+   ::-webkit-scrollbar-thumb {
+      color: #F7F7F7;
    }
 }
 
