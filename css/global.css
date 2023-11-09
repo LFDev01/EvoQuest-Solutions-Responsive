@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
 
-::-webkit-scrollbar {
+html::-webkit-scrollbar {
    width: 5px;
 }
 
-::-webkit-scrollbar-track {
-   background-color: #1b1b1b;
-}
-
-::-webkit-scrollbar-thumb {
+html::-webkit-scrollbar-thumb {
    background-color: #58FFF5;
 }
 
+html::-webkit-scrollbar-track {
+   background-color: #1b1b1b;
+}
+
 html {
-   overflow-y: scroll;
    scrollbar-color: #58FFF5 #1b1b1b;
    scrollbar-width: 5px;
+   transition: .2s;
 }
 
 * {
