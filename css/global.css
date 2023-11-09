@@ -33,5 +33,13 @@ a {
 
 .about,
 .products {
-   margin-bottom: 200px;
+   margin-bottom: 300px;
+}
+
+@media screen and (max-width: 800px) {
+
+   .about,
+   .products {
+      margin-bottom: 200px;
+   }
 }
