@@ -48,8 +48,8 @@ a {
    text-decoration: none;
 }
 
-.about,
-.products,
-.contact {
+.about-section,
+.products-section,
+.contact-section {
    margin-bottom: 350px;
 }

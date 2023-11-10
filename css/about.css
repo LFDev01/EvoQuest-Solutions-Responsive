@@ -1,10 +1,10 @@
-.about {
+.about-section {
    display: grid;
    grid-template-columns: 1fr 1fr;
    margin-top: 200px;
 }
 
-.about img {
+.about-section img {
    object-fit: cover;
    height: 100%;
    width: 100%;
@@ -53,15 +53,15 @@
 }
 
 @media screen and (max-width: 800px) {
-   .about {
+   .about-section {
       grid-template-columns: 1fr;
-      grid-template-rows: 400px 1fr;
+      grid-template-rows: 300px 1fr;
       box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
       height: 100vh;
       margin-top: inherit;
    }
 
-   .about img {
+   .about-section img {
       grid-row: 1;
       width: 100%
    }
@@ -83,5 +83,19 @@
 @media screen and (max-width: 460px) {
    .about-info h1 {
       font-size: 1.5rem;
+   }
+}
+
+@media screen and (max-width: 380px) {
+   .about-section {
+      grid-template-rows: 200px 1fr;
+   }
+
+   .about-info h1 {
+      font-size: 1.4rem;
+   }
+
+   .about-info p {
+      font-size: 0.8rem;
    }
 }

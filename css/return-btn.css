@@ -12,7 +12,7 @@
    width: 32px;
    height: 32px;
    display: inline-block;
-   background-image: url("../img/arrow-up.svg");
+   background-image: url("../img/icons/arrow-up.svg");
    background-repeat: no-repeat;
    background-position: center;
    border-radius: 100%;
@@ -21,7 +21,7 @@
 
 .return-top-btn a:hover {
    background-color: #F7F7F7;
-   background-image: url("../img/arrow-up-2.svg");
+   background-image: url("../img/icons/arrow-up-2.svg");
 }
 
 @media screen and (min-width: 801px) {

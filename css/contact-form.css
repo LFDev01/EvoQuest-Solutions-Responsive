@@ -1,18 +1,18 @@
-.contact {
+.contact-section {
    display: grid;
    grid-template-columns: 1fr 2fr;
    padding: 0px 100px;
    margin: 0 auto;
 }
 
-.contact img {
+.contact-section img {
    width: 100%;
    height: 100%;
    object-fit: cover;
    object-position: center;
 }
 
-.contact>div {
+.contact-section>div {
    background-color: #EDEDED;
    padding: 100px;
 }
@@ -20,6 +20,7 @@
 .contact-form-title {
    font-size: 3rem;
    color: #242833;
+   font-weight: 600;
 }
 
 .contact-form {
@@ -70,11 +71,11 @@
 }
 
 @media screen and (max-width: 1400px) {
-   .contact {
+   .contact-section {
       padding: 50px;
    }
 
-   .contact>div {
+   .contact-section>div {
       padding: 50px;
    }
 
@@ -85,19 +86,19 @@
 
 @media screen and (max-width: 1060px) {
 
-   .contact {
+   .contact-section {
       grid-template-columns: 1fr 1fr;
    }
 
-   .contact>div {
+   .contact-section>div {
       padding: 25px;
    }
 }
 
 @media screen and (max-width: 800px) {
-   .contact {
+   .contact-section {
       grid-template-columns: 1fr;
-      grid-template-rows: 400px 1fr;
+      grid-template-rows: 300px 1fr;
       padding: 0px;
       height: 100vh;
    }
@@ -114,4 +115,55 @@
       margin-top: 30px;
    }
 
+   .contact-form-label {
+      font-size: 0.9rem;
+   }
+
+   .contact-form-input {
+      font-size: 0.8rem;
+   }
+
+   .contact-form-submit {
+      font-size: 1rem;
+   }
+}
+
+@media screen and (max-width: 380px) {
+   .contact-section {
+      grid-template-rows: 200px 1fr;
+   }
+
+
+   .contact-form-title {
+      font-size: 1.4rem;
+   }
+
+   .contact-section>div {
+      padding: 10px;
+   }
+
+   .input-container+.input-container {
+      margin-top: 20px;
+   }
+
+   .contact-form {
+      margin-top: 20px;
+   }
+
+   .contact-form-label {
+      font-size: 0.8rem;
+      margin-bottom: 5px;
+   }
+
+   .contact-form-input {
+      height: 25px;
+      padding: 0rem 0.8rem;
+      font-size: 0.8rem;
+   }
+
+   .contact-form-submit {
+      margin-top: 20px;
+      font-size: 0.8rem;
+      padding: 0.8rem 1rem;
+   }
 }
