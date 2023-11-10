@@ -142,7 +142,7 @@
    }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
    .products-section {
       width: 300px;
    }
