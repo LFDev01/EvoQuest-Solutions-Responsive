@@ -67,6 +67,10 @@
       align-content: start;
    }
 
+   .about-info h1 {
+      font-size: 1.5rem;
+   }
+
    .about-info p {
       font-size: 0.9rem;
    }

@@ -24,7 +24,7 @@
    top: 0px;
    opacity: 0;
    color: #0B0C12;
-   font-size: 1.2rem;
+   font-size: 1rem;
 }
 
 .question-checkbox {
@@ -60,14 +60,32 @@
 }
 
 @media screen and (max-width: 800px) {
-   .faq-section {
-      padding: 20px 4px;
-   }
-
    .faq-questions {
       grid-template-columns: auto;
       place-content: center;
+      height: 100vh;
+      padding: 0px 60px;
+      gap: 40px;
+   }
 
+   .question h1 {
+      font-size: 1.5rem;
+   }
+
+   .question-answer p {
+      position: absolute;
+   }
+
+   .question-checkbox {
+      left: -40px;
+
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .faq-questions {
+      place-content: start;
+      padding: 60px;
    }
 
    .question h1 {
@@ -75,7 +93,22 @@
    }
 
    .question-answer p {
-      position: absolute;
+      font-size: 0.9rem;
+   }
+
+   .question-checkbox {
+      left: -40px;
+      top: -35px;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   .faq-questions {
+      gap: 20px;
+   }
+
+   .question h1 {
       font-size: 1rem;
    }
+
 }
