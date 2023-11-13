@@ -2,7 +2,6 @@
    display: grid;
    grid-template-columns: 1fr 2fr;
    padding: 0px 100px;
-   margin: 0 auto;
 }
 
 .contact-section img {
@@ -96,10 +95,9 @@
 
 @media screen and (max-width: 800px) {
    .contact-section {
-      grid-template-columns: 1fr;
-      grid-template-rows: 300px 1fr;
-      padding: 0px;
-      height: 100vh;
+      grid-template-columns: auto;
+      grid-template-rows: 300px auto;
+      padding: 20px 40px;
    }
 
    .contact-form-title {

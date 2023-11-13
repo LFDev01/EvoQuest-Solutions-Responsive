@@ -1,7 +1,6 @@
 .about-section {
    display: grid;
    grid-template-columns: 1fr 1fr;
-   margin-top: 200px;
 }
 
 .about-section img {
@@ -54,16 +53,13 @@
 
 @media screen and (max-width: 800px) {
    .about-section {
-      grid-template-columns: 1fr;
-      grid-template-rows: 300px 1fr;
-      box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
-      height: 100vh;
-      margin-top: inherit;
+      grid-template-columns: auto;
+      grid-template-rows: 300px auto;
+      padding: 20px 40px;
    }
 
    .about-section img {
       grid-row: 1;
-      width: 100%
    }
 
    .about-info {
