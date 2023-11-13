@@ -84,7 +84,9 @@
 
 @media screen and (max-width: 400px) {
    .about-section {
-      grid-template-rows: 200px 1fr;
+      grid-template-rows: 200px auto;
+      padding: 0px;
+      height: 100vh;
    }
 
    .about-info h1 {

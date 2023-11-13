@@ -113,6 +113,7 @@
       display: flex;
       flex-wrap: wrap;
       align-items: end;
+      height: 600px;
    }
 
    .product-description {
@@ -153,5 +154,9 @@
 
    .product {
       flex-basis: 300px;
+   }
+
+   .product-image-container {
+      height: 500px;
    }
 }

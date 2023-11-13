@@ -127,7 +127,9 @@
 
 @media screen and (max-width: 400px) {
    .contact-section {
-      grid-template-rows: 200px 1fr;
+      grid-template-rows: 200px auto;
+      padding: 0px;
+      height: 100vh;
    }
 
    .contact-form-title {
