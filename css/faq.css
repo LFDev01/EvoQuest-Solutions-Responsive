@@ -1,9 +1,9 @@
 .faq-questions {
    display: grid;
-   grid-template-columns: auto auto;
-   justify-content: space-around;
+   grid-template-columns: auto;
+   justify-content: center;
    gap: 20px;
-   padding: 100px 50px;
+   padding: 50px;
    background-color: #EDEDED;
 }
 
@@ -12,15 +12,18 @@
    font-weight: 600;
 }
 
+.question {
+   background-color: #f2f2f2;
+   padding: 20px;
+   border: 2px solid #EDEDED;
+}
+
 .question-answer {
    position: relative;
 }
 
 .question-answer p {
-   width: fit-content;
-   background-color: rgb(218, 218, 218);
-   padding: 5px;
-   transition: .2s;
+   transition: .3s;
    top: 0px;
    opacity: 0;
    color: #0B0C12;
@@ -33,19 +36,20 @@
    display: inline-block;
    width: 32px;
    height: 32px;
+   z-index: 1;
+   top: -30px;
+   right: 0px;
    background-color: transparent;
-   background-image: url("../img/icons/arrow-up-2.svg");
+   background-image: url("../img/icons/expand.svg");
    background-repeat: no-repeat;
    background-position: center;
    transition: .3s;
    cursor: pointer;
-   z-index: 1;
-   top: -35px;
-   left: -45px;
 }
 
 .question-checkbox:checked {
-   transform: rotateZ(90deg);
+   background-image: url("../img/icons/contain.svg");
+   transform: rotateZ(180deg);
 }
 
 .question-checkbox:checked+p {
@@ -62,9 +66,10 @@
 @media screen and (max-width: 800px) {
    .faq-questions {
       grid-template-columns: auto;
-      place-content: center;
+      align-content: start;
+      justify-content: stretch;
       height: 100vh;
-      padding: 0px 60px;
+      padding: 40px;
       gap: 40px;
    }
 
