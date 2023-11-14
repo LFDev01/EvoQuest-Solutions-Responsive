@@ -22,7 +22,7 @@ html {
    scrollbar-color: #58FFF5 #1b1b1b;
    scrollbar-width: 5px;
    scroll-behavior: smooth;
-   scroll-padding-top: 120px;
+   /* scroll-padding-top: 120px; */
 }
 
 /* ----------------- */
@@ -58,5 +58,5 @@ a {
 .products-section,
 .contact-section,
 .faq-section {
-   margin-top: 300px;
+   margin-bottom: 300px;
 }
