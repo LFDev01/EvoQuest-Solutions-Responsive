@@ -24,18 +24,7 @@
    background-image: url("../img/icons/arrow-up-2.svg");
 }
 
-@media screen and (min-width: 801px) {
-   html {
-      scroll-padding-top: 120px;
-      scroll-behavior: smooth;
-   }
-}
-
 @media screen and (max-width: 800px) {
-   html {
-      overflow-y: hidden;
-   }
-
    .return-top-btn {
       display: inline-block;
    }

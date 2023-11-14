@@ -21,6 +21,8 @@
 html {
    scrollbar-color: #58FFF5 #1b1b1b;
    scrollbar-width: 5px;
+   scroll-behavior: smooth;
+   scroll-padding-top: 120px;
 }
 
 /* ----------------- */
