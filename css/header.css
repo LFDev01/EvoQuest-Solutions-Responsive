@@ -89,11 +89,7 @@
       font-size: 0.9rem;
    }
 
-   .header-menu a:hover {
-      border-radius: 0px 0px 50px 50px;
-   }
-
-   .header-menu a:hover {
+   .header-menu a:active {
       background-color: #F7F7F7;
       color: #1B1B1B;
    }
