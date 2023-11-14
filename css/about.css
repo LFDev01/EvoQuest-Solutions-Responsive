@@ -81,6 +81,12 @@
 }
 
 @media screen and (max-width: 460px) {
+
+   .about-section {
+      padding: 0px;
+      height: 100vh;
+   }
+
    .about-info h1 {
       font-size: 1.5rem;
    }
@@ -89,12 +95,10 @@
 @media screen and (max-width: 400px) {
    .about-section {
       grid-template-rows: 200px auto;
-      padding: 0px;
-      height: 100vh;
    }
 
    .about-info h1 {
-      font-size: 1.4rem;
+      font-size: 1.35rem;
    }
 
    .about-info p {

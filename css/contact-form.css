@@ -125,15 +125,10 @@
    }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 460px) {
    .contact-section {
-      grid-template-rows: 200px auto;
       padding: 0px;
       height: 100vh;
-   }
-
-   .contact-form-title {
-      font-size: 1.4rem;
    }
 
    .contact-section>div {
@@ -154,14 +149,29 @@
    }
 
    .contact-form-input {
-      height: 25px;
       padding: 0rem 0.8rem;
-      font-size: 0.8rem;
    }
 
    .contact-form-submit {
       margin-top: 20px;
-      font-size: 0.8rem;
       padding: 0.8rem 1rem;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   .contact-section {
+      grid-template-rows: 200px auto;
+   }
+
+   .contact-form-title {
+      font-size: 1.35rem;
+   }
+
+   .contact-form-input {
+      height: 25px;
+   }
+
+   .contact-form-submit {
+      font-size: 0.9rem;
    }
 }
