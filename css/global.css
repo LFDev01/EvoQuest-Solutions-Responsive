@@ -22,7 +22,7 @@ html {
    scrollbar-color: #58FFF5 #1b1b1b;
    scrollbar-width: 5px;
    scroll-behavior: smooth;
-   /* scroll-padding-top: 120px; */
+   scroll-padding-top: 100px;
 }
 
 /* ----------------- */
@@ -35,9 +35,6 @@ html {
 
 body {
    font-family: 'Poppins', sans-serif;
-   /* display: grid;
-   gap: 350px; */
-   align-content: center;
 }
 
 img {
