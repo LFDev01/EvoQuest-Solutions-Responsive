@@ -67,7 +67,6 @@
    .faq-questions {
       grid-template-columns: auto;
       align-content: start;
-      height: 100vh;
       padding: 40px;
    }
 

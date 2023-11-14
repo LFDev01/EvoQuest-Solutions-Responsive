@@ -128,7 +128,6 @@
 @media screen and (max-width: 460px) {
    .contact-section {
       padding: 0px;
-      height: 100vh;
    }
 
    .contact-section>div {
