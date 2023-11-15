@@ -11,7 +11,7 @@
    object-position: center;
 }
 
-.contact-section>div {
+.contact-section-form-container {
    background-color: #EDEDED;
    padding: 100px;
 }
@@ -126,12 +126,26 @@
 }
 
 @media screen and (max-width: 460px) {
+
    .contact-section {
+      grid-template-rows: 200px auto;
       padding: 0px;
    }
 
-   .contact-section>div {
+   .contact-section-form-container {
       padding: 10px 20px;
+   }
+
+   .contact-form-title {
+      font-size: 1.35rem;
+   }
+
+   .contact-form-input {
+      height: 25px;
+   }
+
+   .contact-form-submit {
+      font-size: 0.9rem;
    }
 
    .input-container+.input-container {
@@ -154,23 +168,5 @@
    .contact-form-submit {
       margin-top: 20px;
       padding: 0.8rem 1rem;
-   }
-}
-
-@media screen and (max-width: 400px) {
-   .contact-section {
-      grid-template-rows: 200px auto;
-   }
-
-   .contact-form-title {
-      font-size: 1.35rem;
-   }
-
-   .contact-form-input {
-      height: 25px;
-   }
-
-   .contact-form-submit {
-      font-size: 0.9rem;
    }
 }

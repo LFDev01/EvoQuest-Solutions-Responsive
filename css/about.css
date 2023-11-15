@@ -57,6 +57,7 @@
       grid-template-columns: auto;
       grid-template-rows: 300px auto;
       padding: 20px 40px;
+      margin-top: 0px;
    }
 
    .about-section img {

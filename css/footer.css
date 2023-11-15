@@ -100,6 +100,10 @@
       font-size: 0.9rem;
    }
 
+   .footer-newsletter-submit {
+      padding: 0.8rem 1rem;
+   }
+
    .footer-copyright {
       padding: 80px 40px;
    }
