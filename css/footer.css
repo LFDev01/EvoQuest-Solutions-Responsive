@@ -1,4 +1,25 @@
-/* .footer {
+.footer {
+   display: grid;
    background-color: #1B1B1B;
-   height: 100px;
-} */
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.footer h1 {
+   color: #DEDEDE;
+   font-size: 1.5rem;
+}
+
+.footer p {
+   color: #F7F7F7;
+   font-size: 1.25rem;
+}
+
+.footer div:not(:last-child) {
+   padding: 100px;
+}
+
+.footer-copyright {
+   background-color: #131313;
+   grid-column: 1 / -1;
+   padding: 40px 100px;
+}
