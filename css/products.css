@@ -1,4 +1,6 @@
-
+.products-section {
+   margin-bottom: 400px;
+}
 
 .product-list {
    display: flex;
@@ -16,20 +18,6 @@
    transform: scale(1.1);
 }
 
-.product-name-desktop,
-.product-name-mobile {
-   text-align: center;
-   background: linear-gradient(180deg, rgba(249, 249, 249, 0.98) 0%, #EDEDED 100%);
-}
-
-.product-name-desktop {
-   padding: 30px;
-}
-
-.product-name-mobile {
-   display: none;
-}
-
 .product-image-container {
    height: 500px;
    position: relative;
@@ -38,7 +26,7 @@
 .product-image-container img {
    width: 100%;
    height: 100%;
-   object-fit: cover; 
+   object-fit: cover;
 }
 
 .product-description {
@@ -65,6 +53,20 @@
    box-shadow: inset 0px 0px 50px 5px rgba(0, 0, 0, 0.4);
 }
 
+.product-name-desktop {
+   padding: 30px;
+}
+
+.product-name-mobile {
+   display: none;
+}
+
+.product-name-desktop,
+.product-name-mobile {
+   text-align: center;
+   background: linear-gradient(180deg, rgba(249, 249, 249, 0.98) 0%, #EDEDED 100%);
+}
+
 @media screen and (max-width: 1400px) {
    .product-section {
       padding: 50px;
@@ -77,10 +79,6 @@
       overflow: hidden;
       margin: auto;
       padding: 0px;
-   }
-
-   .product:hover {
-      transform: initial;
    }
 
    .product-list {
@@ -101,16 +99,8 @@
       scroll-snap-align: start;
    }
 
-   .product-name-desktop {
-      display: none;
-   }
-
-   .product-name-mobile {
-      display: block;
-      position: relative;
-      top: 50px;
-      padding: 25px;
-      z-index: 1;
+   .product:hover {
+      transform: initial;
    }
 
    .product-image-container {
@@ -132,6 +122,18 @@
       padding: 10px 20px;
    }
 
+   .product-name-desktop {
+      display: none;
+   }
+
+   .product-name-mobile {
+      display: block;
+      position: relative;
+      top: 50px;
+      padding: 25px;
+      z-index: 1;
+   }
+
    ::-webkit-scrollbar {
       height: 5px;
    }
@@ -147,17 +149,17 @@
    }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 460px) {
    .products-section {
       width: 300px;
    }
 
-   .product-list p {
-      font-size: 0.8rem;
-   }
-
    .product {
       flex-basis: 300px;
+   }
+
+   .product-list p {
+      font-size: 0.8rem;
    }
 
    .product-image-container {

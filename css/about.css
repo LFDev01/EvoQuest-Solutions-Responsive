@@ -2,6 +2,7 @@
    display: grid;
    grid-template-columns: 1fr 1fr;
    margin-top: 100px;
+   margin-bottom: 200px;
 }
 
 .about-section img {
@@ -83,23 +84,13 @@
 }
 
 @media screen and (max-width: 460px) {
-
    .about-section {
       padding: 0px;
-   }
-
-   .about-info h1 {
-      font-size: 1.5rem;
-   }
-}
-
-@media screen and (max-width: 400px) {
-   .about-section {
       grid-template-rows: 200px auto;
    }
 
    .about-info h1 {
-      font-size: 1.35rem;
+      font-size: 1.5rem;
    }
 
    .about-info p {

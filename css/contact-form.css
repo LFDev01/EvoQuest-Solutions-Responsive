@@ -2,6 +2,7 @@
    display: grid;
    grid-template-columns: 1fr 2fr;
    padding: 0px 100px;
+   margin-bottom: 200px;
 }
 
 .contact-section img {
@@ -69,11 +70,12 @@
 }
 
 @media screen and (max-width: 1400px) {
+
    .contact-section {
       padding: 50px;
    }
 
-   .contact-section>div {
+   .contact-section-form-container {
       padding: 50px;
    }
 
@@ -83,12 +85,11 @@
 }
 
 @media screen and (max-width: 1060px) {
-
    .contact-section {
       grid-template-columns: 1fr 1fr;
    }
 
-   .contact-section>div {
+   .contact-section-form-container {
       padding: 25px;
    }
 }
@@ -108,10 +109,6 @@
       margin-top: 20px;
    }
 
-   .contact-form-submit {
-      margin-top: 30px;
-   }
-
    .contact-form-label {
       font-size: 0.9rem;
    }
@@ -121,12 +118,12 @@
    }
 
    .contact-form-submit {
+      margin-top: 30px;
       font-size: 1rem;
    }
 }
 
 @media screen and (max-width: 460px) {
-
    .contact-section {
       grid-template-rows: 200px auto;
       padding: 0px;
@@ -140,19 +137,11 @@
       font-size: 1.35rem;
    }
 
-   .contact-form-input {
-      height: 25px;
-   }
-
-   .contact-form-submit {
-      font-size: 0.9rem;
-   }
-
-   .input-container+.input-container {
+   .contact-form {
       margin-top: 20px;
    }
 
-   .contact-form {
+   .input-container+.input-container {
       margin-top: 20px;
    }
 
@@ -162,10 +151,13 @@
    }
 
    .contact-form-input {
+      height: 25px;
       padding: 0rem 0.8rem;
+
    }
 
    .contact-form-submit {
+      font-size: 0.9rem;
       margin-top: 20px;
       padding: 0.8rem 1rem;
    }

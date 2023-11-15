@@ -58,7 +58,7 @@
 }
 
 @media screen and (max-width: 1400px) {
-   .question h1 {
+   .question {
       font-size: 1.25rem;
    }
 }
@@ -76,30 +76,16 @@
       font-size: 1.5rem;
    }
 
+   .question-checkbox {
+      top: -16px;
+      right: 0px;
+   }
+
    .question-answer {
       position: absolute;
       font-size: 0.9rem;
    }
 
-   .question-checkbox {
-      top: 50px;
-      right: 10px;
-   }
-
-   .question-container {
-      min-width: initial;
-   }
-
-
-   .question-checkbox {
-      /* background-image: url("../img/icons/expand_mobile.svg"); */
-      top: -16px;
-      right: 0px;
-   }
-
-   .question-checkbox:checked {
-      /* background-image: url("../img/icons/contain_mobile.svg"); */
-   }
 }
 
 @media screen and (max-width: 600px) {
@@ -109,8 +95,20 @@
 }
 
 @media screen and (max-width: 460px) {
+   .faq-questions {
+      gap: 10px;
+   }
+
    .question-container {
       padding: 10px;
+   }
+
+   .question {
+      font-size: 1rem;
+   }
+
+   .question-answer {
+      font-size: 0.9rem;
    }
 
    .question-checkbox {
@@ -122,15 +120,4 @@
       background-image: url("../img/icons/contain_mobile.svg");
    }
 
-   .question {
-      font-size: 1rem;
-   }
-
-   .question-answer {
-      font-size: 0.9rem;
-   }
-
-   .faq-questions {
-      gap: 10px;
-   }
 }
